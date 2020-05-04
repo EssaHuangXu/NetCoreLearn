@@ -1,0 +1,14 @@
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\bin\Debug\netcoreapp2.1\WebNetCore.deps.json
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\bin\Debug\netcoreapp2.1\WebNetCore.runtimeconfig.json
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\bin\Debug\netcoreapp2.1\WebNetCore.runtimeconfig.dev.json
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\bin\Debug\netcoreapp2.1\WebNetCore.dll
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\bin\Debug\netcoreapp2.1\WebNetCore.pdb
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.csprojAssemblyReference.cache
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.csproj.CoreCompileInputs.cache
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.RazorAssemblyInfo.cache
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.RazorAssemblyInfo.cs
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.AssemblyInfoInputs.cache
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.AssemblyInfo.cs
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.RazorTargetAssemblyInfo.cache
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.dll
+D:\Visual Studio\NetCore\NetCore\WebNetCore\WebNetCore\obj\Debug\netcoreapp2.1\WebNetCore.pdb
