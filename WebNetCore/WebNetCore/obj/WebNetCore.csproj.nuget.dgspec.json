@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\NetCore\\NetCore\\WebNetCore\\WebNetCore\\WebNetCore.csproj": {}
+    "D:\\Visual Studio\\NetCore\\NetCoreLearn\\WebNetCore\\WebNetCore\\WebNetCore.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\NetCore\\NetCore\\WebNetCore\\WebNetCore\\WebNetCore.csproj": {
+    "D:\\Visual Studio\\NetCore\\NetCoreLearn\\WebNetCore\\WebNetCore\\WebNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\NetCore\\NetCore\\WebNetCore\\WebNetCore\\WebNetCore.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\NetCore\\NetCoreLearn\\WebNetCore\\WebNetCore\\WebNetCore.csproj",
         "projectName": "WebNetCore",
-        "projectPath": "D:\\Visual Studio\\NetCore\\NetCore\\WebNetCore\\WebNetCore\\WebNetCore.csproj",
+        "projectPath": "D:\\Visual Studio\\NetCore\\NetCoreLearn\\WebNetCore\\WebNetCore\\WebNetCore.csproj",
         "packagesPath": "C:\\Users\\hxEss\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\NetCore\\NetCore\\WebNetCore\\WebNetCore\\obj\\",
+        "outputPath": "D:\\Visual Studio\\NetCore\\NetCoreLearn\\WebNetCore\\WebNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
             }
           },
           "imports": [

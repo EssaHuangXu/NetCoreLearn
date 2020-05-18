@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using WebNetCore.Models;
 using WebNetCore.Services;
 
 namespace WebNetCore
@@ -18,7 +19,9 @@ namespace WebNetCore
 		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddScoped<IRepository<Student>, InMemoryRepository>();
 			services.AddSingleton<IWelcomeService, WelComeService>();
+			services.AddMvc();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,9 +50,18 @@ namespace WebNetCore
 					}
 				};
 			});
-			app.UseWelcomePage(new WelcomePageOptions()
+			//app.UseWelcomePage(new WelcomePageOptions()
+			//{
+			//	 Path = "/Welcome"
+			//});
+			app.UseStaticFiles();
+			//启动默认的路由 例如：网站根路径 =》 HomeController/Index
+			app.UseMvc(builder =>
 			{
-				 Path = "/Welcome"
+				// 约定路由
+				builder.MapRoute("Default", "{controller=Home}/{action=Index}/{id?}");
+				// 标签路由 在Controller中配置
+
 			});
 
 			app.Run(async (context) =>
