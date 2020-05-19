@@ -1,8 +1,7 @@
-﻿@using WebNetCore.Models
-@{
+﻿@{
     Layout = null;
 }
-@model IEnumerable<Student>
+@model WebNetCore.ViewModels.HomeIndexView.HomeIndexViewModel
 <!DOCTYPE html>
 
 <html>
@@ -13,9 +12,13 @@
 <body>
 <ul>
 	
-	@foreach (var stu in Model)
+	@foreach (var stu in Model.Students)
 	{
-		<li>@stu.Id : @stu.Name</li>
+		<li>@stu.Id : @stu.Name (@stu.BirthDay)  
+			<!--  <a href="/Home/Detail/@stu.Id">Detail</a>
+			-->
+			<a asp-action="Detail" asp-route-id="@stu.Id"> @stu.Name</a>
+			</li>
 	}
 </ul>
 </body>

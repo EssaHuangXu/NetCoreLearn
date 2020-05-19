@@ -1,34 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using WebNetCore.Models;
 
 namespace WebNetCore.Services
 {
 	public class InMemoryRepository : IRepository<Student>
 	{
-		public IEnumerable<Student> GetAll()
+
+		protected IEnumerable<Student> _students;
+
+		public InMemoryRepository()
 		{
-			return  new List<Student>()
+			_students = new List<Student>()
 			{
 
 				new Student()
 				{
 					Id = 1,
-					Name = "Li san"
+					Name = "Li san",
+					LastName =  "Com"
 				},
 				new Student()
 				{
 					Id = 2,
 					Name = "Hang  san",
+					LastName = "Bill"
 				},
 				new Student()
 				{
 					Id = 3,
-					Name = "Tum San"
+					Name = "Tum San",
+					LastName = "Sam"
 				}
 			};
+		}
+		public IEnumerable<Student> GetAll()
+		{
+			return _students;
+		}
+
+		public Student GetbyId(int id)
+		{
+			return _students.FirstOrDefault(x => x.Id == id);
 		}
 	}
 }

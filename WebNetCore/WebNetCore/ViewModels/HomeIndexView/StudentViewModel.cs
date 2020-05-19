@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebNetCore.Models
+namespace WebNetCore.ViewModels.HomeIndexView
 {
-	public class Student
+	public class StudentViewModel
 	{
-		public string Name;
 		public int Id;
-		public string LastName;
+		public string Name;
+		public DateTime BirthDay;
 	}
 }
